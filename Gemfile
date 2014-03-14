@@ -11,6 +11,8 @@ end
 
 group :test do
   gem "chefspec"
+  gem 'rake'
   gem "fog", :git => 'https://github.com/fog/fog.git'
-  gem "berkshelf"
+  gem "foodcritic", "~> 3.0"
+  gem "librarian-chef"
 end
