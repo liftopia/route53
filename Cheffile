@@ -2,7 +2,7 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'route53', path: '.'
-cookbook 'route53_test', path: './test/integration/default/cookbooks/route53_test'
+cookbook 'route53', :path => '.'
+cookbook 'route53_test', :path => './test/integration/default/cookbooks/route53_test'
 
 cookbook 'build-essential'
